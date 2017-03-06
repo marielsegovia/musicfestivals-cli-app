@@ -1,5 +1,8 @@
-require "musicfestivals/version"
+require_relative "musicfestivals/version"
+#requiring version
 
-module Musicfestivals
-  # Your code goes here...
-end
+require_relative './musicfestivals/cli'
+require_relative './musicfestivals/festivals'
+require 'nokogiri'
+require 'pry'
+require 'open-uri'
