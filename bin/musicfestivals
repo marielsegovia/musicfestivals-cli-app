@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-#load interpreter AND files
 
 require "bundler/setup"
 require "musicfestivals"
